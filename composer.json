@@ -1,0 +1,23 @@
+{
+    "name": "liuggio/ddd-with-syfmony2-my-stupid-blog",
+    "description": "Just an example of DDD and BDD",
+    "authors": [
+        {
+            "name": "liuggio",
+            "email": "liuggio@gmail.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "~2",
+        "behat/behat": "~2"
+    },
+    "autoload": {"psr-4": {"Liuggio\\": "src/"}},
+    "license": "MIT"
+}
